@@ -1,8 +1,8 @@
 {
-    "url": "https://imm41n.github.io/xss_form_fishing.yaml",
+    "url": "https://imm41n.github.io/poc_swagger_ui/xss_form_fishing.yaml",
     "urls": [
         {
-            "url": "https://imm41n.github.io/xss_form_fishing.yaml",
+            "url": "https://imm41n.github.io/poc_swagger_ui/xss_form_fishing.yaml",
             "name": "Foo"
         }
     ]
