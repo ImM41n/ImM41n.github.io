@@ -1,0 +1,9 @@
+{
+    "url": "https://imm41n.github.io/poc_swagger_ui/test_alert_xss.yaml",
+    "urls": [
+        {
+            "url": "https://imm41n.github.io/poc_swagger_ui/test_alert_xss.yaml",
+            "name": "Foo"
+        }
+    ]
+}
